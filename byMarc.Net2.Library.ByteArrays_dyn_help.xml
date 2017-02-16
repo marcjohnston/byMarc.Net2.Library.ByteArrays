@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="byMarc.Net2.Library.ByteArrays" Title="byMarc.Net2.Library.ByteArrays Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.ByteArrays.ByteArrayLib" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.ByteArrays.chm::/topic_0000000000000000.html" LinkGroup="byMarc.Net2.Library.ByteArrays">ByteArrayLib Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.ByteArrays.ByteArrayLib.ByteArrayToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.ByteArrays.chm::/topic_0000000000000001.html" LinkGroup="byMarc.Net2.Library.ByteArrays">ByteArrayToString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.ByteArrays.ByteArrayLib.StringToByteArray" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.ByteArrays.chm::/topic_0000000000000002.html" LinkGroup="byMarc.Net2.Library.ByteArrays">StringToByteArray Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.ByteArrays" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.ByteArrays.chm::/topic_0000000000000006.html" LinkGroup="byMarc.Net2.Library.ByteArrays">byMarc.Net2.Library.ByteArrays Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.ByteArrays Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.ByteArrays.chm::/topic_0000000000000005.html" LinkGroup="byMarc.Net2.Library.ByteArrays">byMarc.Net2.Library.ByteArrays Reference</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

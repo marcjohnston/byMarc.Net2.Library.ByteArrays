@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Search index</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link href="search_style.css" type="text/css" rel="stylesheet" />
+    <script src="search.js" type="text/javascript"></script>
+</head>
+
+<body>
+<form name="searchform" onsubmit="do_search();return false;">
+<input id="q" name="q"/><button type="submit">Search</button>
+</form>
+
+<div id="some_results">Results:</div>
+<div id="no_results">No results found</div>
+<div id="content">
+<ul>
+<li id="s_0" style="display:none"><a href="index.html" target="vbdocright">Reference</a></li>
+<li id="s_1" style="display:none"><a href="switch1--.html" target="vbdocright">Help TOC</a></li>
+<li id="s_2" style="display:none"><a href="switch2--.html" target="vbdocright">Help Index</a></li>
+<li id="s_3" style="display:none"><a href="switch3--.html" target="vbdocright">Help Index</a></li>
+<li id="s_4" style="display:none"><a href="title--.html" target="vbdocright">Default page</a></li>
+<li id="s_5" style="display:none"><a href="topic_0000000000000000.html" target="vbdocright">ByteArrayLib Class</a></li>
+<li id="s_6" style="display:none"><a href="topic_0000000000000000_attached_props--.html" target="vbdocright">ByteArrayLib Attached Properties</a></li>
+<li id="s_7" style="display:none"><a href="topic_0000000000000000_events--.html" target="vbdocright">ByteArrayLib Events</a></li>
+<li id="s_8" style="display:none"><a href="topic_0000000000000000_members--.html" target="vbdocright">ByteArrayLib Members</a></li>
+<li id="s_9" style="display:none"><a href="topic_0000000000000000_methods--.html" target="vbdocright">ByteArrayLib Methods</a></li>
+<li id="s_10" style="display:none"><a href="topic_0000000000000000_props--.html" target="vbdocright">ByteArrayLib Properties</a></li>
+<li id="s_11" style="display:none"><a href="topic_0000000000000000_vars--.html" target="vbdocright">ByteArrayLib Fields</a></li>
+<li id="s_12" style="display:none"><a href="topic_0000000000000001.html" target="vbdocright">ByteArrayLib.ByteArrayToString Method</a></li>
+<li id="s_13" style="display:none"><a href="topic_0000000000000002.html" target="vbdocright">ByteArrayLib.StringToByteArray Method</a></li>
+<li id="s_14" style="display:none"><a href="topic_0000000000000005.html" target="vbdocright">byMarc.Net2.Library.ByteArrays Reference </a></li>
+<li id="s_15" style="display:none"><a href="topic_0000000000000006.html" target="vbdocright">byMarc.Net2.Library.ByteArrays Namespace</a></li>
+<li id="s_16" style="display:none"><a href="topic_0000000000000006_members--.html" target="vbdocright">byMarc.Net2.Library.ByteArrays Members</a></li>
+
+</ul>
+</div>
+
+<script type="text/javascript">
+var qterms = [];
+var nurls = 17;
+var index = {'writing':[8, 9, 13],'body':[1, 2, 3],'object':[8, 9, 13],'this':[0, 5, 12, 13],'true':[1, 2, 3],'the':[1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16],'redirectframe':[0],'converts':[8, 9, 12, 13],'all':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'dll':[5, 12, 13, 15],'name':[8, 9, 14, 15, 16],'vbdocright':[0],'also':[5, 6, 7, 8, 9, 10, 11, 12, 13, 16],'clientheight':[1, 2, 3],'alreadyresizing':[1, 2, 3],'example':[5, 12, 13],'namespaces':[14],'methods':[8, 9],'is':[1, 5, 12, 13],'parent':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'text':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'sp1':[5, 12, 13, 15],'bymarc':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'public':[5, 12, 13],'as':[12, 13],'url':[1],'array':[8, 9, 12, 13],'vista':[5, 12, 13, 15],'exposed':[6, 7, 8, 9, 10, 11, 16],'to':[4, 5, 8, 9, 13, 15, 16],'onhashchange':[0],'final':[5],'no':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'location':[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'s':[1],'see':[5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16],'role':[5, 12, 13, 15],'h':[1, 2, 3],'filename':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'a':[5, 8, 9, 12, 13, 15, 16],'c':[5, 12, 13],'g':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'ifrmloaded':[1],'ex':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'toc':[1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'search':[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'unregistered':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'version':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'information':[5, 12, 13, 15],'byval':[12, 13],'8':[5, 12, 13, 15],'available':[5, 12, 13],'index':[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'0':[1, 5, 12, 13, 15],'1':[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'2':[1, 2, 3, 5, 12, 13, 15],'ascii':[5, 8, 15, 16],'4':[5, 12, 13, 15],'5':[5, 12, 13, 15],'6':[5, 12, 13, 15],'7':[5, 12, 13, 15],'resizebox':[1, 2, 3],'replacetitleandurl':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'string':[8, 9, 12, 13],'does':[5, 12, 13, 15],'will':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'false':[1, 2, 3],'platforms':[5, 12, 13, 15],'byte':[5, 8, 9, 12, 13, 15, 16],'syntax':[5, 12, 13],'replace':[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'in':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'framework':[5, 12, 13, 15],'r2':[5, 12, 13, 15],'used':[8, 9, 13],'bytearraytostring':[8, 9, 12],'core':[5, 12, 13, 15],'2012':[5, 12, 13, 15],'static':[12, 13],'parameters':[12, 13],'client':[5, 12, 13, 15],'class':[5, 6, 7, 8, 9, 10, 11, 12, 13],'own':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'write':[0],'footer':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'response':[8, 9, 13],'support':[5, 12, 13, 15],'sealed':[5],'function':[0, 1, 2, 3, 12, 13],'page':[0, 4],'2008':[5, 12, 13, 15],'net2':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'frames':[0, 1],'windows':[5, 12, 13, 15],'window':[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'it':[1],'versions':[5, 12, 13, 15],'convert':[5, 8, 15, 16],'attached':[6],'frameworksupported':[5, 12, 13, 15],'type':[6, 7, 8, 9, 10, 11, 12, 13, 16],'help':[1, 2, 3],'implements':[5, 8, 15, 16],'height':[1, 2, 3],'server':[5, 12, 13, 15],'vb':[5, 12, 13],'try':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'var':[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'box':[1, 2, 3],'schedule':[1],'ref':[5],'lastindexof':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'offsettop':[1, 2, 3],'requirements':[5, 12, 13, 15],'when':[1],'hash':[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'supported':[5, 12, 13, 15],'module':[5],'substring':[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'yet':[1],'set':[5, 8, 15, 16],'style':[1, 2, 3],'properties':[6, 10],'vsdocmanyour':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'top':[8, 9, 14, 15, 16],'net':[5, 12, 13, 15],'expandlinkintoc':[1],'platform':[5, 12, 13, 15],'html':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'description':[8, 9, 14, 15, 16],'loaded':[1],'profilesupported':[5, 12, 13, 15],'members':[5, 6, 7, 8, 9, 10, 11, 12, 13, 16],'if':[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'system':[5, 12, 13, 15],'onload':[1, 2, 3],'else':[0, 1],'of':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'arrays':[5, 8, 15, 16],'routines':[5, 8, 15, 16],'later':[5, 12, 13, 15],'value':[12, 13],'createframes':[0],'library':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'often':[8, 9, 13],'only':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'following':[6, 7, 8, 9, 10, 11, 16],'strings':[5, 8, 9, 13, 15, 16],'undefined':[1],'bytearraylib':[5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16],'code':[5, 12, 13],'syntaxhighlighter':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'every':[5, 12, 13, 15],'fields':[11],'operation':[1],'itanium':[5, 12, 13, 15],'requires':[0],'copy':[5, 12, 13],'_':[12, 13],'into':[5, 8, 9, 12, 15, 16],'list':[5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16],'jscript':[5, 12, 13],'contents':[1, 2, 3],'sp2':[5, 12, 13, 15],'null':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'default':[4],'by':[6, 7, 8, 9, 10, 11, 16],'title':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'namespace':[5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16],'document':[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'bytearrays':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'method':[12, 13],'assembly':[5, 12, 13, 15],'go':[4],'stringtobytearray':[8, 9, 13],'pathname':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'tables':[6, 7, 8, 9, 10, 11, 16],'ifrm':[1, 2, 3],'return':[1],'getelementbyid':[1, 2, 3],'events':[7],'not':[1, 5, 12, 13, 15],'phone':[5, 12, 13, 15],'be':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'or':[5, 12, 13, 15],'registered':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'main':[1, 2, 3],'with':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'iframe':[1, 2, 3],'shared':[12, 13],'onresize':[1, 2, 3],'catch':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'shown':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'reference':[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],'3':[1, 2, 3, 5, 12, 13, 15],'language':[5, 12, 13],'classes':[15, 16],'for':[5, 8, 9, 12, 13, 15, 16],'px':[1, 2, 3],'generated':[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]};
+</script>
+
+</body>
+</html>
